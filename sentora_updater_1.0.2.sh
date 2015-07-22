@@ -20,7 +20,7 @@ echo "Detected : $OS  $VER  $ARCH"
 
 
 ### Ensure that sentora is installed
-if [ -f /etc/sentora ]; then
+if [ -d /etc/sentora ]; then
     echo "Found Sentora, processing"
 else
     echo "Sentora is not installed, aborting..."
